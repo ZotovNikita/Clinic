@@ -1,10 +1,3 @@
-//
-//  ClinicApp.swift
-//  Clinic
-//
-//  Created by Никита on 21.11.2023.
-//
-
 import SwiftUI
 
 @main

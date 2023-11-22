@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115CA4742B0E400500483EA9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4732B0E400500483EA9 /* Fonts.swift */; };
+		115CA4762B0E402C00483EA9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4752B0E402C00483EA9 /* Colors.swift */; };
+		115CA48D2B0E45DC00483EA9 /* Poppins-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA47A2B0E45DA00483EA9 /* Poppins-Black.otf */; };
+		115CA48E2B0E45DC00483EA9 /* Poppins-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA47B2B0E45DA00483EA9 /* Poppins-ThinItalic.otf */; };
+		115CA48F2B0E45DC00483EA9 /* Poppins-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA47C2B0E45DA00483EA9 /* Poppins-SemiBoldItalic.otf */; };
+		115CA4902B0E45DC00483EA9 /* Poppins-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA47D2B0E45DA00483EA9 /* Poppins-ExtraLightItalic.otf */; };
+		115CA4912B0E45DC00483EA9 /* Poppins-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA47E2B0E45DA00483EA9 /* Poppins-BlackItalic.otf */; };
+		115CA4922B0E45DC00483EA9 /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA47F2B0E45DA00483EA9 /* Poppins-Medium.otf */; };
+		115CA4932B0E45DC00483EA9 /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA4802B0E45DA00483EA9 /* Poppins-Bold.otf */; };
+		115CA4942B0E45DC00483EA9 /* Poppins-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA4812B0E45DB00483EA9 /* Poppins-LightItalic.otf */; };
+		115CA4952B0E45DC00483EA9 /* Poppins-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA4822B0E45DB00483EA9 /* Poppins-ExtraLight.otf */; };
+		115CA4962B0E45DC00483EA9 /* Poppins-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA4832B0E45DB00483EA9 /* Poppins-Thin.otf */; };
+		115CA4972B0E45DC00483EA9 /* Poppins-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA4842B0E45DB00483EA9 /* Poppins-ExtraBold.otf */; };
+		115CA4982B0E45DC00483EA9 /* Poppins-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA4852B0E45DB00483EA9 /* Poppins-Light.otf */; };
+		115CA4992B0E45DC00483EA9 /* Poppins-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA4862B0E45DB00483EA9 /* Poppins-MediumItalic.otf */; };
+		115CA49A2B0E45DC00483EA9 /* Poppins-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA4872B0E45DB00483EA9 /* Poppins-SemiBold.otf */; };
+		115CA49B2B0E45DC00483EA9 /* Poppins-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA4882B0E45DB00483EA9 /* Poppins-Italic.otf */; };
+		115CA49C2B0E45DC00483EA9 /* Poppins-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA4892B0E45DC00483EA9 /* Poppins-BoldItalic.otf */; };
+		115CA49D2B0E45DC00483EA9 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA48A2B0E45DC00483EA9 /* Poppins-Regular.otf */; };
+		115CA49E2B0E45DC00483EA9 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 115CA48B2B0E45DC00483EA9 /* SIL Open Font License.txt */; };
+		115CA49F2B0E45DC00483EA9 /* Poppins-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA48C2B0E45DC00483EA9 /* Poppins-ExtraBoldItalic.otf */; };
+		115CA4A12B0E4A6A00483EA9 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4A02B0E4A6A00483EA9 /* Images.swift */; };
+		115CA4A32B0E58D100483EA9 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4A22B0E58D100483EA9 /* Texts.swift */; };
+		115CA4A52B0E7DB000483EA9 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4A42B0E7DB000483EA9 /* Sizes.swift */; };
 		11CBAB5F2B0D106B00CADEBB /* ClinicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBAB5E2B0D106B00CADEBB /* ClinicApp.swift */; };
 		11CBAB612B0D106B00CADEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBAB602B0D106B00CADEBB /* ContentView.swift */; };
 		11CBAB632B0D10AE00CADEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CBAB622B0D10AE00CADEBB /* Assets.xcassets */; };
@@ -14,6 +38,7 @@
 		11CBAB702B0D10B100CADEBB /* ClinicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBAB6F2B0D10B100CADEBB /* ClinicTests.swift */; };
 		11CBAB7A2B0D10B100CADEBB /* ClinicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBAB792B0D10B100CADEBB /* ClinicUITests.swift */; };
 		11CBAB7C2B0D10B100CADEBB /* ClinicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBAB7B2B0D10B100CADEBB /* ClinicUITestsLaunchTests.swift */; };
+		11CBAB892B0D1E5600CADEBB /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBAB882B0D1E5600CADEBB /* GreetingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		115CA4732B0E400500483EA9 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		115CA4752B0E402C00483EA9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		115CA47A2B0E45DA00483EA9 /* Poppins-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Black.otf"; path = "../../../../../Downloads/poppins/Poppins-Black.otf"; sourceTree = "<group>"; };
+		115CA47B2B0E45DA00483EA9 /* Poppins-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ThinItalic.otf"; path = "../../../../../Downloads/poppins/Poppins-ThinItalic.otf"; sourceTree = "<group>"; };
+		115CA47C2B0E45DA00483EA9 /* Poppins-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBoldItalic.otf"; path = "../../../../../Downloads/poppins/Poppins-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		115CA47D2B0E45DA00483EA9 /* Poppins-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLightItalic.otf"; path = "../../../../../Downloads/poppins/Poppins-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		115CA47E2B0E45DA00483EA9 /* Poppins-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-BlackItalic.otf"; path = "../../../../../Downloads/poppins/Poppins-BlackItalic.otf"; sourceTree = "<group>"; };
+		115CA47F2B0E45DA00483EA9 /* Poppins-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.otf"; path = "../../../../../Downloads/poppins/Poppins-Medium.otf"; sourceTree = "<group>"; };
+		115CA4802B0E45DA00483EA9 /* Poppins-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.otf"; path = "../../../../../Downloads/poppins/Poppins-Bold.otf"; sourceTree = "<group>"; };
+		115CA4812B0E45DB00483EA9 /* Poppins-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-LightItalic.otf"; path = "../../../../../Downloads/poppins/Poppins-LightItalic.otf"; sourceTree = "<group>"; };
+		115CA4822B0E45DB00483EA9 /* Poppins-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLight.otf"; path = "../../../../../Downloads/poppins/Poppins-ExtraLight.otf"; sourceTree = "<group>"; };
+		115CA4832B0E45DB00483EA9 /* Poppins-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Thin.otf"; path = "../../../../../Downloads/poppins/Poppins-Thin.otf"; sourceTree = "<group>"; };
+		115CA4842B0E45DB00483EA9 /* Poppins-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraBold.otf"; path = "../../../../../Downloads/poppins/Poppins-ExtraBold.otf"; sourceTree = "<group>"; };
+		115CA4852B0E45DB00483EA9 /* Poppins-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.otf"; path = "../../../../../Downloads/poppins/Poppins-Light.otf"; sourceTree = "<group>"; };
+		115CA4862B0E45DB00483EA9 /* Poppins-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-MediumItalic.otf"; path = "../../../../../Downloads/poppins/Poppins-MediumItalic.otf"; sourceTree = "<group>"; };
+		115CA4872B0E45DB00483EA9 /* Poppins-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.otf"; path = "../../../../../Downloads/poppins/Poppins-SemiBold.otf"; sourceTree = "<group>"; };
+		115CA4882B0E45DB00483EA9 /* Poppins-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Italic.otf"; path = "../../../../../Downloads/poppins/Poppins-Italic.otf"; sourceTree = "<group>"; };
+		115CA4892B0E45DC00483EA9 /* Poppins-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-BoldItalic.otf"; path = "../../../../../Downloads/poppins/Poppins-BoldItalic.otf"; sourceTree = "<group>"; };
+		115CA48A2B0E45DC00483EA9 /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.otf"; path = "../../../../../Downloads/poppins/Poppins-Regular.otf"; sourceTree = "<group>"; };
+		115CA48B2B0E45DC00483EA9 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "SIL Open Font License.txt"; path = "../../../../../Downloads/poppins/SIL Open Font License.txt"; sourceTree = "<group>"; };
+		115CA48C2B0E45DC00483EA9 /* Poppins-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraBoldItalic.otf"; path = "../../../../../Downloads/poppins/Poppins-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		115CA4A02B0E4A6A00483EA9 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		115CA4A22B0E58D100483EA9 /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+		115CA4A42B0E7DB000483EA9 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
 		11CBAB5B2B0D106A00CADEBB /* Clinic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clinic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CBAB5E2B0D106B00CADEBB /* ClinicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicApp.swift; sourceTree = "<group>"; };
 		11CBAB602B0D106B00CADEBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +93,7 @@
 		11CBAB752B0D10B100CADEBB /* ClinicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClinicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CBAB792B0D10B100CADEBB /* ClinicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicUITests.swift; sourceTree = "<group>"; };
 		11CBAB7B2B0D10B100CADEBB /* ClinicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11CBAB882B0D1E5600CADEBB /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +121,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		115CA4712B0E3EA100483EA9 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				115CA4732B0E400500483EA9 /* Fonts.swift */,
+				115CA4752B0E402C00483EA9 /* Colors.swift */,
+				115CA4A02B0E4A6A00483EA9 /* Images.swift */,
+				115CA4A22B0E58D100483EA9 /* Texts.swift */,
+				115CA4A42B0E7DB000483EA9 /* Sizes.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		115CA4772B0E42BA00483EA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				115CA4782B0E42C600483EA9 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		115CA4782B0E42C600483EA9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				115CA47A2B0E45DA00483EA9 /* Poppins-Black.otf */,
+				115CA47E2B0E45DA00483EA9 /* Poppins-BlackItalic.otf */,
+				115CA4802B0E45DA00483EA9 /* Poppins-Bold.otf */,
+				115CA4892B0E45DC00483EA9 /* Poppins-BoldItalic.otf */,
+				115CA4842B0E45DB00483EA9 /* Poppins-ExtraBold.otf */,
+				115CA48C2B0E45DC00483EA9 /* Poppins-ExtraBoldItalic.otf */,
+				115CA4822B0E45DB00483EA9 /* Poppins-ExtraLight.otf */,
+				115CA47D2B0E45DA00483EA9 /* Poppins-ExtraLightItalic.otf */,
+				115CA4882B0E45DB00483EA9 /* Poppins-Italic.otf */,
+				115CA4852B0E45DB00483EA9 /* Poppins-Light.otf */,
+				115CA4812B0E45DB00483EA9 /* Poppins-LightItalic.otf */,
+				115CA47F2B0E45DA00483EA9 /* Poppins-Medium.otf */,
+				115CA4862B0E45DB00483EA9 /* Poppins-MediumItalic.otf */,
+				115CA48A2B0E45DC00483EA9 /* Poppins-Regular.otf */,
+				115CA4872B0E45DB00483EA9 /* Poppins-SemiBold.otf */,
+				115CA47C2B0E45DA00483EA9 /* Poppins-SemiBoldItalic.otf */,
+				115CA4832B0E45DB00483EA9 /* Poppins-Thin.otf */,
+				115CA47B2B0E45DA00483EA9 /* Poppins-ThinItalic.otf */,
+				115CA48B2B0E45DC00483EA9 /* SIL Open Font License.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		115CA4A62B0E89F300483EA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11CBAB882B0D1E5600CADEBB /* GreetingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		11CBAB522B0D104900CADEBB = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +198,9 @@
 		11CBAB5D2B0D106B00CADEBB /* Clinic */ = {
 			isa = PBXGroup;
 			children = (
+				115CA4A62B0E89F300483EA9 /* Views */,
+				115CA4772B0E42BA00483EA9 /* Resources */,
+				115CA4712B0E3EA100483EA9 /* DesignSystem */,
 				11CBAB5E2B0D106B00CADEBB /* ClinicApp.swift */,
 				11CBAB602B0D106B00CADEBB /* ContentView.swift */,
 				11CBAB622B0D10AE00CADEBB /* Assets.xcassets */,
@@ -231,8 +338,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115CA49A2B0E45DC00483EA9 /* Poppins-SemiBold.otf in Resources */,
+				115CA4932B0E45DC00483EA9 /* Poppins-Bold.otf in Resources */,
+				115CA4922B0E45DC00483EA9 /* Poppins-Medium.otf in Resources */,
+				115CA49B2B0E45DC00483EA9 /* Poppins-Italic.otf in Resources */,
+				115CA4972B0E45DC00483EA9 /* Poppins-ExtraBold.otf in Resources */,
+				115CA48F2B0E45DC00483EA9 /* Poppins-SemiBoldItalic.otf in Resources */,
+				115CA4952B0E45DC00483EA9 /* Poppins-ExtraLight.otf in Resources */,
+				115CA48E2B0E45DC00483EA9 /* Poppins-ThinItalic.otf in Resources */,
+				115CA49C2B0E45DC00483EA9 /* Poppins-BoldItalic.otf in Resources */,
+				115CA48D2B0E45DC00483EA9 /* Poppins-Black.otf in Resources */,
 				11CBAB662B0D10AE00CADEBB /* Preview Assets.xcassets in Resources */,
+				115CA49E2B0E45DC00483EA9 /* SIL Open Font License.txt in Resources */,
+				115CA49F2B0E45DC00483EA9 /* Poppins-ExtraBoldItalic.otf in Resources */,
+				115CA4942B0E45DC00483EA9 /* Poppins-LightItalic.otf in Resources */,
+				115CA4992B0E45DC00483EA9 /* Poppins-MediumItalic.otf in Resources */,
+				115CA4962B0E45DC00483EA9 /* Poppins-Thin.otf in Resources */,
 				11CBAB632B0D10AE00CADEBB /* Assets.xcassets in Resources */,
+				115CA4902B0E45DC00483EA9 /* Poppins-ExtraLightItalic.otf in Resources */,
+				115CA4982B0E45DC00483EA9 /* Poppins-Light.otf in Resources */,
+				115CA4912B0E45DC00483EA9 /* Poppins-BlackItalic.otf in Resources */,
+				115CA49D2B0E45DC00483EA9 /* Poppins-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +383,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115CA4742B0E400500483EA9 /* Fonts.swift in Sources */,
+				115CA4A12B0E4A6A00483EA9 /* Images.swift in Sources */,
+				115CA4762B0E402C00483EA9 /* Colors.swift in Sources */,
 				11CBAB612B0D106B00CADEBB /* ContentView.swift in Sources */,
+				115CA4A52B0E7DB000483EA9 /* Sizes.swift in Sources */,
+				11CBAB892B0D1E5600CADEBB /* GreetingView.swift in Sources */,
 				11CBAB5F2B0D106B00CADEBB /* ClinicApp.swift in Sources */,
+				115CA4A32B0E58D100483EA9 /* Texts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
