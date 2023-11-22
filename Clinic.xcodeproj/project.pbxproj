@@ -31,6 +31,9 @@
 		115CA4A12B0E4A6A00483EA9 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4A02B0E4A6A00483EA9 /* Images.swift */; };
 		115CA4A32B0E58D100483EA9 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4A22B0E58D100483EA9 /* Texts.swift */; };
 		115CA4A52B0E7DB000483EA9 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4A42B0E7DB000483EA9 /* Sizes.swift */; };
+		115CA4A82B0E8C6100483EA9 /* DoctorsPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4A72B0E8C6100483EA9 /* DoctorsPlaceholderView.swift */; };
+		115CA4AB2B0E926E00483EA9 /* DoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4AA2B0E926E00483EA9 /* DoctorModel.swift */; };
+		115CA4AD2B0EAD1600483EA9 /* DoctorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4AC2B0EAD1600483EA9 /* DoctorModels.swift */; };
 		11CBAB5F2B0D106B00CADEBB /* ClinicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBAB5E2B0D106B00CADEBB /* ClinicApp.swift */; };
 		11CBAB612B0D106B00CADEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBAB602B0D106B00CADEBB /* ContentView.swift */; };
 		11CBAB632B0D10AE00CADEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CBAB622B0D10AE00CADEBB /* Assets.xcassets */; };
@@ -83,6 +86,9 @@
 		115CA4A02B0E4A6A00483EA9 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		115CA4A22B0E58D100483EA9 /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
 		115CA4A42B0E7DB000483EA9 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		115CA4A72B0E8C6100483EA9 /* DoctorsPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsPlaceholderView.swift; sourceTree = "<group>"; };
+		115CA4AA2B0E926E00483EA9 /* DoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModel.swift; sourceTree = "<group>"; };
+		115CA4AC2B0EAD1600483EA9 /* DoctorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModels.swift; sourceTree = "<group>"; };
 		11CBAB5B2B0D106A00CADEBB /* Clinic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clinic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CBAB5E2B0D106B00CADEBB /* ClinicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicApp.swift; sourceTree = "<group>"; };
 		11CBAB602B0D106B00CADEBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,6 +135,7 @@
 				115CA4A02B0E4A6A00483EA9 /* Images.swift */,
 				115CA4A22B0E58D100483EA9 /* Texts.swift */,
 				115CA4A42B0E7DB000483EA9 /* Sizes.swift */,
+				115CA4AC2B0EAD1600483EA9 /* DoctorModels.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -171,8 +178,17 @@
 			isa = PBXGroup;
 			children = (
 				11CBAB882B0D1E5600CADEBB /* GreetingView.swift */,
+				115CA4A72B0E8C6100483EA9 /* DoctorsPlaceholderView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		115CA4A92B0E925000483EA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				115CA4AA2B0E926E00483EA9 /* DoctorModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		11CBAB522B0D104900CADEBB = {
@@ -198,6 +214,7 @@
 		11CBAB5D2B0D106B00CADEBB /* Clinic */ = {
 			isa = PBXGroup;
 			children = (
+				115CA4A92B0E925000483EA9 /* Models */,
 				115CA4A62B0E89F300483EA9 /* Views */,
 				115CA4772B0E42BA00483EA9 /* Resources */,
 				115CA4712B0E3EA100483EA9 /* DesignSystem */,
@@ -383,12 +400,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115CA4AB2B0E926E00483EA9 /* DoctorModel.swift in Sources */,
 				115CA4742B0E400500483EA9 /* Fonts.swift in Sources */,
 				115CA4A12B0E4A6A00483EA9 /* Images.swift in Sources */,
 				115CA4762B0E402C00483EA9 /* Colors.swift in Sources */,
+				115CA4A82B0E8C6100483EA9 /* DoctorsPlaceholderView.swift in Sources */,
 				11CBAB612B0D106B00CADEBB /* ContentView.swift in Sources */,
 				115CA4A52B0E7DB000483EA9 /* Sizes.swift in Sources */,
 				11CBAB892B0D1E5600CADEBB /* GreetingView.swift in Sources */,
+				115CA4AD2B0EAD1600483EA9 /* DoctorModels.swift in Sources */,
 				11CBAB5F2B0D106B00CADEBB /* ClinicApp.swift in Sources */,
 				115CA4A32B0E58D100483EA9 /* Texts.swift in Sources */,
 			);
