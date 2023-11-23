@@ -7,4 +7,8 @@ extension Image {
     static let dateIcon = Image("dateIcon")
     static let timeIcon = Image("timeIcon")
     static let search = Image("search")
+    static let covid = Image("covid")
+    static let doctor = Image("doctor")
+    static let medicine = Image("medicine")
+    static let hospital = Image("hospital")
 }

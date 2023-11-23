@@ -15,3 +15,8 @@ let dividerPadding: CGFloat = 4
 let searchTextPadding: CGFloat = 12
 let searchPadding: CGFloat = 16
 let searchCornerRadius: CGFloat = 12
+
+//Sizes for Tags
+let tagImagePadding: CGFloat = 24
+let tagImageCornerRadius: CGFloat = 100
+

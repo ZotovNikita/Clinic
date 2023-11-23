@@ -18,11 +18,12 @@ struct DoctorsPlaceholderView: View {
                             .font(Font.poppinsRegular14)
                             .foregroundColor(Color.lightSky)
                     }
+                
+                    Spacer()
+                    
+                    Image.arrow
                 }
                 
-            Spacer()
-            
-            Image.arrow
             
             
             Divider().overlay(Color.blurWhite).padding([.top, .bottom], dividerPadding)

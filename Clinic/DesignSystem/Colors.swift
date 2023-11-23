@@ -8,4 +8,5 @@ extension Color {
     static let placeholderColor = Color("sky")
     static let blurWhite = Color("blurWhite")
     static let searchBackground = Color("searchBackground")
+    static let tagImageBackground = Color("searchBackground")
 }
