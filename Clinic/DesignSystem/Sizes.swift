@@ -20,3 +20,11 @@ let searchCornerRadius: CGFloat = 12
 let tagImagePadding: CGFloat = 24
 let tagImageCornerRadius: CGFloat = 100
 
+//Sizes for Near Doctor
+let numbersPadding: CGFloat = 24
+let labelPadding: CGFloat = 24
+let doctorCornerRadius: CGFloat = 12
+let shadowRadius: CGFloat = 10
+let shadowX: CGFloat = 2
+let shadowY: CGFloat = 12
+let doctorPadding: CGFloat = 12

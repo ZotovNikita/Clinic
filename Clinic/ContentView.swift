@@ -2,19 +2,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        GreetingView()
-        Button(action: {}) {
-            DoctorsPlaceholderView(doctorModel: DoctorModel.mainDoctor)
-                        }.hoverEffect()
-        
-        SearchView().padding(.top, searchPadding)
-        
-        TagsView(tags: [
-                TagModel.covid,
-                TagModel.doctor,
-                TagModel.medicine,
-                TagModel.hospital
+        ScrollView(.vertical) {
+            GreetingView()
+            Button(action: {}) {
+                DoctorsPlaceholderView(doctorModel: DoctorModel.mainDoctor)
+            }.hoverEffect()
+            
+            SearchView().padding(.top, searchPadding).hoverEffect()
+            
+            TagsView(tags: [
+                    TagModel.covid,
+                    TagModel.doctor,
+                    TagModel.medicine,
+                    TagModel.hospital
+                ])
+            
+            NearDoctorsView(doctors: [
+                DoctorModel.nearDoctor,
+                DoctorModel.mainDoctor
             ])
+        }
     }
 }
 

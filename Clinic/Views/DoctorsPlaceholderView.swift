@@ -5,7 +5,6 @@ struct DoctorsPlaceholderView: View {
     var doctorModel: DoctorModel
     	
     var body: some View {
-   
         VStack(alignment: .leading, spacing: placeholdepSpacing){
             HStack{
                 doctorModel.doctorImage.padding(.trailing, mainAvatarPadding)

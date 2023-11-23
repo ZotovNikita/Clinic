@@ -34,6 +34,7 @@
 		115CA4A82B0E8C6100483EA9 /* DoctorsPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4A72B0E8C6100483EA9 /* DoctorsPlaceholderView.swift */; };
 		115CA4AB2B0E926E00483EA9 /* DoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4AA2B0E926E00483EA9 /* DoctorModel.swift */; };
 		115CA4AD2B0EAD1600483EA9 /* DoctorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4AC2B0EAD1600483EA9 /* DoctorModels.swift */; };
+		11606BCE2B0F368E00E17F1D /* NearDoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11606BCD2B0F368E00E17F1D /* NearDoctorView.swift */; };
 		117003162B0F1C7000BDC4E3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117003152B0F1C7000BDC4E3 /* SearchView.swift */; };
 		117003192B0F25E600BDC4E3 /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117003182B0F25E600BDC4E3 /* TagsView.swift */; };
 		1170031B2B0F268600BDC4E3 /* TagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1170031A2B0F268600BDC4E3 /* TagModel.swift */; };
@@ -93,6 +94,7 @@
 		115CA4A72B0E8C6100483EA9 /* DoctorsPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsPlaceholderView.swift; sourceTree = "<group>"; };
 		115CA4AA2B0E926E00483EA9 /* DoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModel.swift; sourceTree = "<group>"; };
 		115CA4AC2B0EAD1600483EA9 /* DoctorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModels.swift; sourceTree = "<group>"; };
+		11606BCD2B0F368E00E17F1D /* NearDoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorView.swift; sourceTree = "<group>"; };
 		117003152B0F1C7000BDC4E3 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		117003182B0F25E600BDC4E3 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
 		1170031A2B0F268600BDC4E3 /* TagModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagModel.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				115CA4A72B0E8C6100483EA9 /* DoctorsPlaceholderView.swift */,
 				117003152B0F1C7000BDC4E3 /* SearchView.swift */,
 				117003182B0F25E600BDC4E3 /* TagsView.swift */,
+				11606BCD2B0F368E00E17F1D /* NearDoctorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				11CBAB612B0D106B00CADEBB /* ContentView.swift in Sources */,
 				115CA4A52B0E7DB000483EA9 /* Sizes.swift in Sources */,
 				11CBAB892B0D1E5600CADEBB /* GreetingView.swift in Sources */,
+				11606BCE2B0F368E00E17F1D /* NearDoctorView.swift in Sources */,
 				115CA4AD2B0EAD1600483EA9 /* DoctorModels.swift in Sources */,
 				11CBAB5F2B0D106B00CADEBB /* ClinicApp.swift in Sources */,
 				1170031B2B0F268600BDC4E3 /* TagModel.swift in Sources */,

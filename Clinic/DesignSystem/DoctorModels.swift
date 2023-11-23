@@ -5,6 +5,17 @@ extension DoctorModel {
         doctorName: Text.selectedDoctorName,
         doctorImage: Image.mainAvatar,
         doctorPost: Text.selectedDoctorPost,
-        isSelected: true
+        doctorRating: Text.mainDoctorRaiting,
+        doctorTime: Text.mainDoctorTime,
+        doctorKm: Text.mainDoctorKm
+    )
+    
+    static var nearDoctor: DoctorModel = DoctorModel(
+        doctorName: Text.nearDoctorName,
+        doctorImage: Image.nearDoctorAvatar,
+        doctorPost: Text.nearDoctorPost,
+        doctorRating: Text.nearDoctorRaiting,
+        doctorTime: Text.nearDoctorTime,
+        doctorKm: Text.nearDoctorKm
     )
 }

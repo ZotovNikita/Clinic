@@ -14,4 +14,13 @@ extension Text {
     static let doctor = Text("Doctor")
     static let medicine = Text("Medicine")
     static let hospital = Text("Hospital")
+    static let nearDoctor = Text("Near Doctor")
+    static let mainDoctorRaiting = Text("4.8 (222 Rewiews)")
+    static let mainDoctorTime = Text("Open at 17:00")
+    static let mainDoctorKm = Text("1.2 KM")
+    static let nearDoctorName = Text("Dr. Joseph Brostito")
+    static let nearDoctorPost = Text("Dental Specialist")
+    static let nearDoctorRaiting = Text("4.8 (120 Rewiews)")
+    static let nearDoctorTime = Text("Open at 17:00")
+    static let nearDoctorKm = Text("1.2 KM")
 }

@@ -11,4 +11,8 @@ extension Image {
     static let doctor = Image("doctor")
     static let medicine = Image("medicine")
     static let hospital = Image("hospital")
+    static let nearDoctorAvatar = Image("nearDoctor")
+    static let clock1 = Image("clock1")
+    static let clock2 = Image("clock2")
+    static let location = Image("location")
 }
