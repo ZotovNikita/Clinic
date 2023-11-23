@@ -22,7 +22,7 @@ struct DoctorsPlaceholderView: View {
                 
             Spacer()
             
-            Image.arrow.padding(.top, 12)
+            Image.arrow
             
             
             Divider().overlay(Color.blurWhite).padding([.top, .bottom], dividerPadding)

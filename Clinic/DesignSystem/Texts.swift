@@ -9,4 +9,5 @@ extension Text {
     static let selectedDoctorPost = Text("General Doctor")
     static let placeHolderDate = Text("Sunday, 12 June")
     static let placeholderTime = Text("11:00 - 12:00 AM")
+    static let search = Text("Search doctor or health issue")
 }

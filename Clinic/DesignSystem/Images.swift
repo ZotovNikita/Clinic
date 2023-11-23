@@ -6,4 +6,5 @@ extension Image {
     static let arrow = Image("arrow")
     static let dateIcon = Image("dateIcon")
     static let timeIcon = Image("timeIcon")
+    static let search = Image("search")
 }

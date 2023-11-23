@@ -7,4 +7,5 @@ extension Color {
     static let lightSky = Color("lightSky")
     static let placeholderColor = Color("sky")
     static let blurWhite = Color("blurWhite")
+    static let searchBackground = Color("searchBackground")
 }

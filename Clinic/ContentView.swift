@@ -6,6 +6,10 @@ struct ContentView: View {
         Button(action: {}) {
             DoctorsPlaceholderView(doctorModel: DoctorModel.mainDoctor)
                         }.hoverEffect()
+        Button(action: {}) {
+            SearchView()
+                .padding(.top, searchPadding)
+        }.hoverEffect()
     }
 }
 
