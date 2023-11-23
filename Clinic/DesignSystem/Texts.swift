@@ -23,4 +23,5 @@ extension Text {
     static let nearDoctorRaiting = Text("4.8 (120 Rewiews)")
     static let nearDoctorTime = Text("Open at 17:00")
     static let nearDoctorKm = Text("1.2 KM")
+    static let home = Text("home")
 }

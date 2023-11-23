@@ -4,6 +4,7 @@ struct ContentView: View {
     var body: some View {
         ScrollView(.vertical) {
             GreetingView()
+            
             Button(action: {}) {
                 DoctorsPlaceholderView(doctorModel: DoctorModel.mainDoctor)
             }.hoverEffect()
@@ -21,7 +22,11 @@ struct ContentView: View {
                 DoctorModel.nearDoctor,
                 DoctorModel.mainDoctor
             ])
-        }
+            
+        }.padding(.horizontal, scrollPadding1)
+         .padding(.top, scrollPadding2)
+        
+        NavigationView().padding(.horizontal, scrollPadding1)
     }
 }
 

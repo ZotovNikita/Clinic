@@ -15,4 +15,8 @@ extension Image {
     static let clock1 = Image("clock1")
     static let clock2 = Image("clock2")
     static let location = Image("location")
+    static let home = Image("home")
+    static let profile = Image("profile")
+    static let message = Image("message")
+    static let calendar = Image("calendar")
 }

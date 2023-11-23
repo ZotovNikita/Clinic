@@ -14,4 +14,6 @@ extension Color {
     static let nearColor = Color("deepBlue")
     static let kmColor = Color("darkGrey")
     static let postColor = Color("darkGrey")
+    static let buttonColor = Color("sky")
+    static let activeButtonColor = Color("blurBlue")
 }

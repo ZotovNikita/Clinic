@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11571FF82B0FB250006B6CDC /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11571FF72B0FB250006B6CDC /* NavigationView.swift */; };
 		115CA4742B0E400500483EA9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4732B0E400500483EA9 /* Fonts.swift */; };
 		115CA4762B0E402C00483EA9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CA4752B0E402C00483EA9 /* Colors.swift */; };
 		115CA48D2B0E45DC00483EA9 /* Poppins-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115CA47A2B0E45DA00483EA9 /* Poppins-Black.otf */; };
@@ -67,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11571FF72B0FB250006B6CDC /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		115CA4732B0E400500483EA9 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		115CA4752B0E402C00483EA9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		115CA47A2B0E45DA00483EA9 /* Poppins-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Black.otf"; path = "../../../../../Downloads/poppins/Poppins-Black.otf"; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				117003152B0F1C7000BDC4E3 /* SearchView.swift */,
 				117003182B0F25E600BDC4E3 /* TagsView.swift */,
 				11606BCD2B0F368E00E17F1D /* NearDoctorView.swift */,
+				11571FF72B0FB250006B6CDC /* NavigationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 				1170031D2B0F29BF00BDC4E3 /* TagModels.swift in Sources */,
 				115CA4742B0E400500483EA9 /* Fonts.swift in Sources */,
 				115CA4A12B0E4A6A00483EA9 /* Images.swift in Sources */,
+				11571FF82B0FB250006B6CDC /* NavigationView.swift in Sources */,
 				115CA4762B0E402C00483EA9 /* Colors.swift in Sources */,
 				117003162B0F1C7000BDC4E3 /* SearchView.swift in Sources */,
 				117003192B0F25E600BDC4E3 /* TagsView.swift in Sources */,

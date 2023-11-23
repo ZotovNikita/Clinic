@@ -60,9 +60,10 @@ struct NearDoctorsView: View {
                         .padding(.leading, numbersPadding)
                             
                         }
-                    }.padding(.top, doctorPadding)
-                     .background(.white)
-                     .cornerRadius(doctorCornerRadius)
+                    }.padding(doctorPadding)
+
+                    .background(Color.white, in: RoundedRectangle(cornerRadius: doctorCornerRadius))
+             
                      .shadow(
                         color: Color.blurWhite,
                         radius: shadowRadius,
